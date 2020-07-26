@@ -1,0 +1,26 @@
+:root{
+  --primary-light:#fff;
+  --primary-dark:#222;
+  --primary-white:#EAF0F1;
+}
+body{
+  position: relative;
+  width: 100%;
+  min-height: 200vh;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  background-color: var(--primary-light);
+  color: var(--primary-dark);
+}
+header{
+  height: 100vh;
+  position: fixed;
+  background-color: var(--primary-white);
+  margin: 0px;
+  width: 7vw;
+}
+.container{
+  width: 80%;
+  margin: auto;
+}
