@@ -1,12 +1,9 @@
-import React from "react"
-import Anurag from '../images/anurag.png'
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import React from 'react'
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
+export default function about() {
+    return (
+        <Layout>
+    <SEO title="About Me" />
     <div className="container">
       <div className="home">
         <div className="col-lg-6">
@@ -25,6 +22,5 @@ const IndexPage = () => (
 
 
   </Layout>
-)
-
-export default IndexPage
+    )
+}
