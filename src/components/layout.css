@@ -24,10 +24,16 @@ body {
   height: 100%;
   padding-top: 20vh;
 }
+.m-0 {
+  margin: 0px;
+}
+.p-0 {
+  padding: 0px;
+}
 .container {
   width: 80vw;
   margin: 0px auto;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
 }
 .name {
   color: var(--primary-blue);
@@ -35,7 +41,7 @@ body {
 p {
   color: var(--accent-light);
   margin: 5px 0px;
-  font-size: 1.4rem;
+  font-size: 1rem;
 }
 .social-icons {
   color: var(--primary-blue);
@@ -71,4 +77,28 @@ nav > div {
 .intro-line {
   font-size: 3rem;
   font-weight: bolder !important;
+}
+
+/* css for about page */
+.about {
+  display: flex;
+  flex-direction: column;
+}
+.about-section {
+  margin-bottom: 25px;
+}
+.chip {
+  background-color: blueviolet;
+  padding: 5px 10px;
+  margin: 0px 10px 10px 0px;
+  border-radius: 5px;
+  color: white;
+}
+.text-wrap {
+  max-width: 100%;
+  list-style: none;
+  padding: 0px;
+}
+.text-wrap li {
+  display: inline-block;
 }

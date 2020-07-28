@@ -9,14 +9,21 @@ const Header = () => (
         <h2>AnuragGharat</h2>
       </div>
       <div>
-        <Link  className="nav-link">About</Link>
-        <Link  className="nav-link">Blogs</Link>
-        <Link  className="nav-link">Works</Link>
-        <Link  className="nav-link">Contact</Link>
+        <Link className="nav-link" to="/about">
+          About
+        </Link>
+        <Link className="nav-link" to="/blogs">
+          Blogs
+        </Link>
+        <Link className="nav-link" to="/works">
+          Works
+        </Link>
+        <Link className="nav-link" to="/contact">
+          Contact
+        </Link>
       </div>
     </nav>
   </header>
 )
-
 
 export default Header
