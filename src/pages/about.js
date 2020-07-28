@@ -1,15 +1,19 @@
 import React from 'react'
+import Anurag from '../images/anurag.png'
+import Layout from "../components/layout"
+import Image from "../components/image"
+import SEO from "../components/seo"
 
 export default function about() {
     return (
         <Layout>
-    <SEO title="About Me" />
+      <SEO title="About Me" />
     <div className="container">
       <div className="home">
         <div className="col-lg-6">
         <h1>Hey There! I am Anurag!</h1>
-        <h2>A Front-End Designer and Developer based in Mumbai!</h2>
-        <h2>Currently Looking projects and Internships to work on!</h2>
+        <p>A Front-End Designer and Developer based in Mumbai!</p>
+        <p>Currently Looking projects and Internships to work on!</p>
         <p>Want to get in touch?Contact me here!</p>
         <p>Facebook Instagram Snapchat</p>
         </div>

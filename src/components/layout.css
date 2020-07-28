@@ -1,12 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
-:root{
-  --primary-light:#fff;
-  --primary-dark:#222;
-  --primary-white:#EAF0F1;
+:root {
+  --primary-light: #fff;
+  --secondary-light: #b2bec3;
+  --tertiary-light: #2d3436;
+  --accent-light: #2d3436;
+  --primary-dark: #222;
+  --primary-white: #eaf0f1;
+  --primary-blue: #6c5ce7;
 }
-body{
+body {
   position: relative;
-  font-family:'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   width: 100%;
   min-height: 100vh;
   box-sizing: border-box;
@@ -15,46 +19,56 @@ body{
   background-color: var(--primary-light);
   color: var(--primary-dark);
 }
-.root{
+.root {
   width: 100%;
   height: 100%;
   padding-top: 20vh;
 }
-.container{
+.container {
   width: 80vw;
   margin: 0px auto;
-  background-color: yellow;
+  background-color: blueviolet;
 }
-
-
-
-
+.name {
+  color: var(--primary-blue);
+}
+p {
+  color: var(--accent-light);
+  margin: 5px 0px;
+  font-size: 1.4rem;
+}
+.social-icons {
+  color: var(--primary-blue);
+  font-size: 2rem;
+}
 
 /* css for header */
-header{
+header {
   height: 10vh;
   width: 100%;
-  display:flex;
-  background-color: var(--primary-light);  
+  display: flex;
+  background-color: var(--primary-light);
 }
-nav{
+nav {
   display: flex;
   width: 100%;
   color: black;
   justify-content: space-around;
 }
-nav>div{
+nav > div {
   display: flex;
   align-items: center;
 }
-.nav-link{
+.nav-link {
   margin: 0px 10px;
 }
 
-
-
-
 /* css for home page */
-.home{
+.home {
   display: flex;
+  justify-content: center;
+}
+.intro-line {
+  font-size: 3rem;
+  font-weight: bolder !important;
 }
