@@ -47,20 +47,34 @@ export default function about() {
           </div>
           <div className="about-section">
             <h2>Technical Skills</h2>
+            <p>
+              Currently working as Freelance Web Developer. I specialize in
+              Front-end Frameworks like React, Angular and Vue but can work as a
+              Full-Stack Developer.Apart from Web Technologies I have been
+              studying and learning Native App Development using React
+              Native.Here is the list of technologies and Programming languages
+              I have a command on
+            </p>
             <ul className="text-wrap">
+              <li className="chip">Python</li>
+              <li className="chip">C</li>
+              <li className="chip">Javascript</li>
+              <li className="chip">HTML</li>
+              <li className="chip">CSS</li>
+              <li className="chip">SASS</li>
+              <li className="chip">CSS-Frameworks</li>
               <li className="chip">React</li>
-              <li className="chip">Angular9</li>
+              <li className="chip">Redux</li>
+              <li className="chip">Angular 9</li>
               <li className="chip">Vue</li>
               <li className="chip">Node</li>
               <li className="chip">Firebase</li>
               <li className="chip">MongoDB</li>
-              <li className="chip">Javascript</li>
-              <li className="chip">Python</li>
-              <li className="chip">CSS</li>
-              <li className="chip">SASS</li>
-              <li className="chip">Bootstrap</li>
-              <li className="chip">Materialize</li>
-              <li className="chip">React</li>
+              <li className="chip">MySQL</li>
+              <li className="chip">React Native</li>
+              <li className="chip">Adobe-Xd</li>
+              <li className="chip">Figma</li>
+              <li className="chip">Wordpress</li>
             </ul>
           </div>
         </div>

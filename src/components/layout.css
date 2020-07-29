@@ -8,6 +8,9 @@
   --primary-white: #eaf0f1;
   --primary-blue: #6c5ce7;
 }
+.bgtest {
+  background-color: brown;
+}
 body {
   position: relative;
   font-family: "Montserrat", sans-serif;
@@ -60,6 +63,8 @@ nav {
   width: 100%;
   color: black;
   justify-content: space-around;
+  position: fixed;
+  background-color: var(--primary-light);
 }
 nav > div {
   display: flex;
@@ -94,6 +99,12 @@ nav > div {
   border-radius: 5px;
   color: white;
 }
+
+.chip:hover {
+  background-color: var(--secondary-light);
+  color: var(--primary-white);
+  cursor: pointer;
+}
 .text-wrap {
   max-width: 100%;
   list-style: none;
@@ -101,4 +112,16 @@ nav > div {
 }
 .text-wrap li {
   display: inline-block;
+}
+
+/* css for work */
+.workcard {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+  border-bottom: 1px solid var(--primary-dark);
+  padding: 20px 0px;
+}
+.work-image {
 }
