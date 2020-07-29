@@ -13,7 +13,8 @@ const IndexPage = () => (
         <h1>My Works</h1>
         <p>
           Here is a list of few selected projects I have worked on till date.
-          You can find more projects on Github
+          You can find more projects on{" "}
+          <a href="https://github/anuraggharat">Github</a>
         </p>
         <div className="workrow">
           <WorkCard></WorkCard>

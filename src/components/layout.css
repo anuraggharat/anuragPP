@@ -117,11 +117,16 @@ nav > div {
 /* css for work */
 .workcard {
   display: flex;
-  align-items: center;
   flex-direction: column;
   margin-bottom: 30px;
   border-bottom: 1px solid var(--primary-dark);
   padding: 20px 0px;
 }
 .work-image {
+  height: 400px;
+  width: 800px;
+}
+.work-image:hover {
+  height: 400px;
+  box-shadow: 3px 2px var(--primary-dark);
 }

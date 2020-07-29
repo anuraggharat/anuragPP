@@ -4,7 +4,7 @@ import Travelgram from "../images/travelgram.png"
 export default function WorkCard() {
   return (
     <div className="workcard m-0 p-0">
-      <img src={Travelgram} className="work-image" height="400px" />
+      <img src={Travelgram} className="work-image" />
       <div className="row">
         <h2>Travelgram</h2>
         <p>
