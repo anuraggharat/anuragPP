@@ -8,29 +8,24 @@ export default function blogs() {
     <Layout>
       <SEO title="About Me" />
       <div className="container">
-        <div className="about">
-          <h1 className="heading">About Me</h1>
-          <div className="about-section">
-            <p>
-              Hello, I am Anurag Gharat, a Front-End Developer from Mumbai.I am
-              Currently in my Final Year of Computer Engineering. I was born in
-              Alibag and currently residing in Nerul,Navi-Mumbai.
-            </p>
-            <p>
-              Hello, I am Anurag Gharat, a Front-End Developer from Mumbai.I am
-              Currently in my Final Year of Computer Engineering. I was born in
-              Alibag and currently residing in Nerul,Navi-Mumbai.
-            </p>
-            <p>
-              Hello, I am Anurag Gharat, a Front-End Developer from Mumbai.I am
-              Currently in my Final Year of Computer Engineering. I was born in
-              Alibag and currently residing in Nerul,Navi-Mumbai.
-            </p>
-          </div>
-          <div className="about-section">
-            <h3 className="m-0">Past Work Experience</h3>
-            <h5>Edunomics</h5>
-          </div>
+        <div className="blogs">
+          <h1>Blog</h1>
+          <p>
+            I was always fond of teaching and explaining concepts in a better
+            understandable way.Recently I started writing blogs at medium.com
+            and I am still a newbie at it.
+          </p>
+          <p>Here's a list of all the blogs I have wrote so far!</p>
+          <div
+            id="retainable-rss-embed"
+            data-rss="https://medium.com/feed/@anuraggharat"
+            data-maxcols="3"
+            data-layout="grid"
+            data-poststyle="inline"
+            data-readmore="Read the rest"
+            data-buttonclass="btn btn-primary"
+            data-offset="-100"
+          ></div>
         </div>
       </div>
     </Layout>
