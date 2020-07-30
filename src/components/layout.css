@@ -33,6 +33,9 @@ body {
 .p-0 {
   padding: 0px;
 }
+.btn {
+  padding: 10px 20px;
+}
 .container {
   width: 80vw;
   margin: 0px auto;
@@ -133,16 +136,19 @@ nav > div {
 
 /* css for blog */
 .row {
-  margin-top: 30px;
+  margin-top: 50px;
   width: 100%;
-  background-color: var(--accent-light);
   height: 100%;
-  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
 }
 .blog-card {
-  float: left;
   width: 50%;
 }
 .blog-image {
   width: 75%;
+}
+.blog-image:hover {
+  transform: translate(-3px, -3px);
+  transition: 0.2s ease-in;
 }
