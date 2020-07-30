@@ -1,8 +1,7 @@
 import React from "react"
-import Anurag from "../images/anurag.png"
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+import Blogcard from "../components/blogcard"
 export default function blogs() {
   return (
     <Layout>
@@ -16,16 +15,12 @@ export default function blogs() {
             and I am still a newbie at it.
           </p>
           <p>Here's a list of all the blogs I have wrote so far!</p>
-          <div
-            id="retainable-rss-embed"
-            data-rss="https://medium.com/feed/@anuraggharat"
-            data-maxcols="3"
-            data-layout="grid"
-            data-poststyle="inline"
-            data-readmore="Read the rest"
-            data-buttonclass="btn btn-primary"
-            data-offset="-100"
-          ></div>
+          <div className="row">
+            <Blogcard></Blogcard>
+            <Blogcard></Blogcard>
+            <Blogcard></Blogcard>
+            <Blogcard></Blogcard>
+          </div>
         </div>
       </div>
     </Layout>

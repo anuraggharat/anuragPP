@@ -1,9 +1,7 @@
 import React from "react"
-import Anurag from "../images/anurag.png"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Link } from "gatsby"
-import { work } from "../Data/work"
+
 import WorkCard from "../components/workCard"
 const IndexPage = () => (
   <Layout>

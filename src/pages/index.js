@@ -1,9 +1,7 @@
 import React from "react"
-import Anurag from "../images/anurag.png"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa"
-import { Link } from "gatsby"
 
 const IndexPage = () => (
   <Layout>

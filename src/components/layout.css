@@ -130,3 +130,19 @@ nav > div {
   height: 400px;
   box-shadow: 3px 2px var(--primary-dark);
 }
+
+/* css for blog */
+.row {
+  margin-top: 30px;
+  width: 100%;
+  background-color: var(--accent-light);
+  height: 100%;
+  justify-content: space-between;
+}
+.blog-card {
+  float: left;
+  width: 50%;
+}
+.blog-image {
+  width: 75%;
+}
