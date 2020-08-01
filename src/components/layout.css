@@ -33,6 +33,9 @@ body {
 .p-0 {
   padding: 0px;
 }
+.mt-2 {
+  margin-top: 2rem;
+}
 .btn {
   padding: 10px 20px;
 }
@@ -68,6 +71,7 @@ nav {
   justify-content: space-around;
   position: fixed;
   background-color: var(--primary-light);
+  z-index: 5;
 }
 nav > div {
   display: flex;
@@ -107,6 +111,7 @@ nav > div {
   background-color: var(--secondary-light);
   color: var(--primary-white);
   cursor: pointer;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 .text-wrap {
   max-width: 100%;
@@ -130,8 +135,9 @@ nav > div {
   width: 800px;
 }
 .work-image:hover {
-  height: 400px;
-  box-shadow: 3px 2px var(--primary-dark);
+  transform: translate(-4px, -4px);
+  transition: 0.1s ease-in;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
 }
 
 /* css for blog */
@@ -151,4 +157,5 @@ nav > div {
 .blog-image:hover {
   transform: translate(-3px, -3px);
   transition: 0.2s ease-in;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
 }

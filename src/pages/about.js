@@ -42,6 +42,11 @@ export default function about() {
               Completed projects :- edunomics.in , tech.edunomics.in ,
               wenester.edunomics.in , nikhilcomforts.com etc.
             </p>
+            <h4 className="m-0 mt-2">Freelancing</h4>
+            <h4 className="m-0 ">
+              <i>Freelance Web-Developer | April 2020 - Now </i>
+            </h4>
+            <p>Currently working as a</p>
           </div>
           <div className="about-section">
             <h2>Technical Skills</h2>
