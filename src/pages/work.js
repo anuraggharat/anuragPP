@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { works } from "../Data/work"
 
 import WorkCard from "../components/workCard"
 const IndexPage = () => (
@@ -15,15 +16,9 @@ const IndexPage = () => (
           <a href="https://github/anuraggharat">Github</a>
         </p>
         <div className="workrow">
-          <WorkCard></WorkCard>
-          <WorkCard></WorkCard>
-          <WorkCard></WorkCard>
-          <WorkCard></WorkCard>
-          <WorkCard></WorkCard>
-          <WorkCard></WorkCard>
-          <WorkCard></WorkCard>
-          <WorkCard></WorkCard>
-          <WorkCard></WorkCard>
+          {works.map(item => (
+            <WorkCard key={item.id} work={item} />
+          ))}
         </div>
       </div>
     </div>
