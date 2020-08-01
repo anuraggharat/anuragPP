@@ -12,8 +12,10 @@ const IndexPage = () => (
         <h1>My Works</h1>
         <p>
           Here is a list of few selected projects I have worked on till date.
-          You can find more projects on{" "}
-          <a href="https://github/anuraggharat">Github</a>
+          You can find more of them on {"  "}
+          <a target="_blank" href="https://github/anuraggharat">
+            Github
+          </a>
         </p>
         <div className="workrow">
           {works.map(item => (

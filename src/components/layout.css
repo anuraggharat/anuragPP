@@ -47,6 +47,10 @@ body {
 .name {
   color: var(--primary-blue);
 }
+a,
+a:hover {
+  text-decoration: none;
+}
 p {
   color: var(--accent-light);
   margin: 5px 0px;
