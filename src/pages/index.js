@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa"
+import { FaLinkedin, FaGithub } from "react-icons/fa"
 // import Anurag from "../images/anurag.png"
 
 const IndexPage = () => (
@@ -19,13 +19,10 @@ const IndexPage = () => (
           <p>Want to get in touch?Contact me here!</p>
           <div className="social-media">
             <a href="anuraggharat.me" className="social-icons">
-              <FaFacebook />
+              <FaGithub />
             </a>
             <a href="anuraggharat.me" className="social-icons">
-              <FaInstagram />
-            </a>
-            <a href="anuraggharat.me" className="social-icons">
-              <FaWhatsapp />
+              <FaLinkedin />
             </a>
           </div>
         </div>
