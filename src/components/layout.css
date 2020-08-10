@@ -55,7 +55,9 @@ a:hover {
 p {
   color: var(--accent-light);
   margin: 5px 0px;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  font-weight: 400;
 }
 .social-icons,
 .social-icons-contact {

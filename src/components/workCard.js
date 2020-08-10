@@ -5,7 +5,7 @@ export default function WorkCard({ work }) {
   return (
     <div className="workcard m-0 p-0">
       <a href={work.link} target="_blank">
-        <img src={Travelgram} className="work-image" alt="work" />
+        <img src={work.imgId} className="work-image" alt="work" />
       </a>
       <div className="row">
         <h2>{work.title}</h2>
