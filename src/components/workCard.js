@@ -3,8 +3,8 @@ import Travelgram from "../images/travelgram.png"
 
 export default function WorkCard({ work }) {
   return (
-    <div className="workcard m-0 p-0">
-      <a href={work.link} target="_blank">
+    <div className="workcard p-0">
+      <a href={work.link} target="_blank" className="p-0 w-100">
         <img src={work.imgId} className="work-image" alt="work" />
       </a>
       <div className="row">

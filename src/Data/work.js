@@ -1,6 +1,8 @@
 import travelgram from "../images/travelgram.png"
 import shoee from "../images/rove.png"
 import medinspire from "../images/medinspire.png"
+import bechde from "../images/bechde.png"
+import getfit from "../images/getfit.png"
 
 export const works = [
   {
@@ -20,7 +22,7 @@ export const works = [
   },
   {
     id: 2,
-    title: "Shoee",
+    title: "Rove",
     description:
       "A fullfledged E-commerce store for shopping of shoes.The project is built on MERN Stack.Users can create their profile and start buying products.The Admin has all the access to add,delete and edit new items and categories.Also 2 payment gateways namely Stripe and Paypal are added.",
     imgId: shoee,
@@ -38,11 +40,20 @@ export const works = [
   },
   {
     id: 4,
-    title: "EverNote Clone",
+    title: "BechDe",
     description:
-      "A fullfledged E-commerce store for shopping of shoes.The project is built on MERN Stack.Users can create their profile and start buying products.The Admin has all the access to add,delete and edit new items and categories.Also 2 payment gateways namely Stripe and Paypal are added.",
-    imgId: "",
-    technologies: ["React", "MongoDb", "Bootstrap", "Node", "Express"],
-    link: "https://github.com/anuraggharat/ECom",
+      "React Native app Front-End for buying and selling of stuff online. The App allows users to post products that the users don't use anymore and also recieve mssg of people intrested for buying the product. ",
+    imgId: bechde,
+    technologies: ["React-Native", "Formik"],
+    link: "https://github.com/anuraggharat/BechDe",
+  },
+  {
+    id: 5,
+    title: "Get fit",
+    description:
+      "A Bootstrap Theme built on October CMS for a GYM. The theme comes with Blogs as well as Forums functionality added.",
+    imgId: getfit,
+    technologies: ["HTML5", "CSS3", "Bootstrap", "Laravel", "Php"],
+    link: "https://github.com/anuraggharat/OctoberCMS-Blog",
   },
 ]
