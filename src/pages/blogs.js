@@ -31,7 +31,10 @@ export default function Blogs() {
           <h1>Blog</h1>
           <p>
             I was always fond of teaching and explaining concepts in a better
-            understandable way.Recently I started writing blogs at medium.com
+            understandable way.Recently I started writing blogs at{" "}
+            <a href="https://medium.com/@anuraggharat" target="_blank">
+              Medium
+            </a>{" "}
             and I am still a newbie at it.
           </p>
           <p>Here's a list of all the blogs I have wrote so far!</p>

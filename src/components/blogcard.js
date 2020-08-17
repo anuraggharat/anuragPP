@@ -8,7 +8,7 @@ export default function Blogcard({ blog }) {
       <a href={blog.link} target="_blank">
         <img src={blog.thumbnail} className="blog-image" />
       </a>
-      <h2 className="">{blog.title}</h2>
+      <h2 className="m-0">{blog.title}</h2>
       {blog.pubDate ? <p>{d.toDateString()}</p> : <p>A while ago</p>}
       <ul className="text-wrap">
         {blog.categories.map(item => (

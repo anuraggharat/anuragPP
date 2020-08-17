@@ -57,7 +57,7 @@ p {
   margin: 5px 0px;
   font-size: 1.2rem;
   line-height: 1.7rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 .social-icons,
 .social-icons-contact {
@@ -175,6 +175,8 @@ nav > div {
 }
 .blog-card {
   width: 50%;
+  margin-top: 100px;
+  border-bottom: 1px solid var(--tertiary-light);
 }
 .blog-image {
   width: 75%;
