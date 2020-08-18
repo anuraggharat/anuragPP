@@ -60,46 +60,98 @@ export default function about() {
           </div>
           <div className="about-section">
             <h2 className="sub-heading">Past Work Experience</h2>
-            <h3 className="m-0 ter-heading">Edunomics</h3>
-            <p className="m-0 ">
-              <i>Web-App Developer Intern | May 2020 - July 2020 </i>
-            </p>
-            <p>
-              Worked primarily as a Front-End Developer and built various
-              websites for the Organization . Also Developed new websites and
-              worked on enhancing the UI’s and performance of previously built
-              websites for the client projects of the Organization while leading
-              a team of 6 Developers. The technology stack on which I worked
-              included React, Redux ,CSS Frameworks, Node, Express and MongoDB.
-              Completed projects :- edunomics.in , tech.edunomics.in ,
-              wenester.edunomics.in , nikhilcomforts.com etc.
-            </p>
-            <h3 className="m-0 mt-2">Freelancing</h3>
-            <p className="m-0 ">
-              <i>Freelance Web-Developer | April 2020 - Now </i>
-            </p>
-            <p>
-              I began working as a Freelance Developer from April 2020, since
-              then I have worked with all types of clients and businessmen and
-              helped them in creating there websites.The main motive of all the
-              projects was to provide the Simplest, Feasible and Cost Friendly
-              Solutions for their projects. The technologies used during this
-              period was HTML , CSS, JS, Jquery, Gatsby, Bootstrap, Wordpress
-              ,Bootstrap and various other Technologies.Some note worthy
-              projects are{" "}
-              <a href="http://littleearthfarmsandnursery.com/" target="_blank">
-                littleearth.com
-              </a>
-              {" , "}
-              <a href="http://littleearthfarmsandnursery.com/" target="_blank">
-                littleearth.com
-              </a>
-              {" , "}
-              <a href="http://littleearthfarmsandnursery.com/" target="_blank">
-                littleearth.com
-              </a>
-              .
-            </p>
+            <ul>
+              <li>
+                <h2 className=" primary-text">Edunomics</h2>
+              </li>
+              <p className=" bold">
+                <i>Web-App Developer Intern | May 2020 - July 2020 </i>
+              </p>
+              <p>
+                Worked primarily as a Front-End Developer and built various
+                websites for the Organization . Also Developed new websites and
+                worked on enhancing the UI’s and performance of previously built
+                websites for the client projects of the Organization while
+                leading a team of 6 Developers. The technology stack on which I
+                worked included React, Redux ,CSS Frameworks, Node, Express and
+                MongoDB. Completed projects :-
+                <a
+                  href="http://littleearthfarmsandnursery.com/"
+                  target="_blank"
+                  className="primary-text bold"
+                >
+                  edunomics.in
+                </a>
+                {" , "}
+                <a
+                  href="https://techedunomics.netlify.app/"
+                  target="_blank"
+                  className="bold primary-text"
+                >
+                  tech.edunomics.in
+                </a>
+                {" , "}
+                <a
+                  href="https://nikhilcomforts.netlify.app/"
+                  target="_blank"
+                  className="primary-text bold"
+                >
+                  nikhilcomforts.com
+                </a>
+                {" and "}
+                <a
+                  href="https://yashodaclinic.com/"
+                  target="_blank"
+                  className="primary-text bold"
+                >
+                  nikhilcomforts.com
+                </a>
+                .
+              </p>
+              <li>
+                <h2 className=" mt-2 primary-text">Freelancing</h2>
+              </li>
+              <p
+                className=" bold
+              "
+              >
+                <i>Freelance Web-Developer | April 2020 - Now </i>
+              </p>
+              <p>
+                I began working as a Freelance Developer from April 2020, since
+                then I have worked with all types of clients and businessmen and
+                helped them in creating there websites.The main motive of all
+                the projects was to provide the Simplest, Feasible and Cost
+                Friendly Solutions for their projects. The technologies used
+                during this period was HTML , CSS, JS, Jquery, Gatsby,
+                Bootstrap, Wordpress ,Bootstrap and various other
+                Technologies.Some note worthy projects are{" "}
+                <a
+                  href="http://littleearthfarmsandnursery.com/"
+                  target="_blank"
+                  className="primary-text bold"
+                >
+                  littleearthfarmsandnursery.com
+                </a>
+                {" , "}
+                <a
+                  href="http://littleearthfarmsandnursery.com/"
+                  target="_blank"
+                  className="primary-text bold"
+                >
+                  theblueskyresortalibag.com
+                </a>
+                {" , "}
+                <a
+                  href="https://yashodaclinic.com/"
+                  target="_blank"
+                  className="primary-text bold"
+                >
+                  yashodaclinic.com
+                </a>
+                .
+              </p>
+            </ul>
           </div>
         </div>
       </div>
