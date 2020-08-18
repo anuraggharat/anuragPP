@@ -9,15 +9,16 @@ const IndexPage = () => (
     <SEO title="Works" />
     <div className="container">
       <div className="works">
-        <h1>My Works</h1>
+        <h1 className="heading">My Works</h1>
         <p>
           Here is a list of few selected projects I have worked on till date.
           You can find more of them on {"  "}
           <a target="_blank" href="https://github/anuraggharat">
             Github
           </a>
+          .
         </p>
-        <div className="workrow">
+        <div>
           {works.map(item => (
             <WorkCard key={item.id} work={item} />
           ))}

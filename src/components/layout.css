@@ -4,13 +4,16 @@
   --secondary-light: #b2bec3;
   --tertiary-light: #2d3436;
   --accent-light: #2d3436;
+  --accent-dark: #222;
   --primary-dark: #222;
   --primary-white: #eaf0f1;
   --primary-blue: #6c5ce7;
 }
+
 .bgtest {
   background-color: brown;
 }
+
 body {
   position: relative;
   font-family: "Montserrat", sans-serif;
@@ -20,7 +23,6 @@ body {
   padding: 0px;
   margin: 0px;
   background-color: var(--primary-light);
-  color: var(--primary-dark);
 }
 .root {
   width: 100%;
@@ -36,13 +38,26 @@ body {
 .mt-2 {
   margin-top: 2rem;
 }
+.heading {
+  font-size: 4rem;
+  color: var(--accent-dark);
+}
+.sub-heading {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--accent-light);
+}
+.ter-heading {
+  text-decoration-style: wavy;
+  text-anchor: middle;
+  text-decoration-skip-ink: initial;
+}
 .btn {
   padding: 10px 20px;
 }
 .container {
   width: 80vw;
   margin: 0px auto;
-  /* background-color: blueviolet; */
 }
 .name {
   color: var(--primary-blue);
@@ -56,8 +71,8 @@ p {
   color: var(--accent-light);
   margin: 5px 0px;
   font-size: 1.2rem;
-  line-height: 1.7rem;
-  font-weight: 500;
+  line-height: 2rem;
+  font-weight: 400;
 }
 .social-icons,
 .social-icons-contact {
@@ -157,7 +172,7 @@ nav > div {
 }
 .work-image {
   height: auto;
-  width: 600px;
+  width: 100%;
 }
 .work-image:hover {
   transform: translate(-4px, -4px);
@@ -174,7 +189,7 @@ nav > div {
   flex-direction: column;
 }
 .blog-card {
-  width: 50%;
+  width: 100%;
   margin-top: 100px;
   border-bottom: 1px solid var(--tertiary-light);
 }

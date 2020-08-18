@@ -28,7 +28,7 @@ export default function Blogs() {
       <SEO title="About Me" />
       <div className="container">
         <div className="blogs">
-          <h1>Blog</h1>
+          <h1 className="heading">Blog</h1>
           <p>
             I was always fond of teaching and explaining concepts in a better
             understandable way.Recently I started writing blogs at{" "}
@@ -41,7 +41,7 @@ export default function Blogs() {
           {loading ? (
             <h1>Loading</h1>
           ) : (
-            <div className="row">
+            <div>
               {blogs.map(blog => (
                 <Blogcard blog={blog} key={blog.link} />
               ))}

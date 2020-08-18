@@ -9,7 +9,7 @@ export default function contact() {
       <SEO title="About Me" />
       <div className="container">
         <div className="contact">
-          <h1>Contact Me</h1>
+          <h1 className="heading">Contact Me</h1>
           <p>
             For work or project related enquiries mail me at:{" "}
             <a href="mailto:anuraggharat55@gmail.com" target="_blank">

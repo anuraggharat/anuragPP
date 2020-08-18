@@ -31,7 +31,7 @@ export default function about() {
             </p>
           </div>
           <div className="about-section">
-            <h2>Technical Skills</h2>
+            <h2 className="sub-heading">Technical Skills</h2>
             <p>
               With a 2 years of Experience in Web Development, here is a list of
               Technologies and Programming Languages I am capable of working on!
@@ -59,8 +59,8 @@ export default function about() {
             </ul>
           </div>
           <div className="about-section">
-            <h2>Past Work Experience</h2>
-            <h3 className="m-0">Edunomics</h3>
+            <h2 className="sub-heading">Past Work Experience</h2>
+            <h3 className="m-0 ter-heading">Edunomics</h3>
             <p className="m-0 ">
               <i>Web-App Developer Intern | May 2020 - July 2020 </i>
             </p>
