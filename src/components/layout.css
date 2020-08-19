@@ -2,7 +2,8 @@
 @import "~/node_modules/sal.js/dist/sal.css";
 
 :root {
-  --primary-light: #6c5ce7;
+  /* --primary-light: #6c5ce7;#e74c3c */
+  --primary-light: #17c0eb;
   --secondary-light: #55efc4;
   --background-light: #fafafa;
   --text-light: #636e72;
@@ -86,7 +87,7 @@ p {
   color: var(--text-light);
   margin: 5px 0px;
   font-size: 1.2rem;
-  line-height: 1.5rem;
+  line-height: 1.7rem;
   font-weight: 400;
 }
 .social-icons,

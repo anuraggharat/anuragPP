@@ -29,7 +29,7 @@ const IndexPage = () => {
               Currently looking for Projects and Internships to work on!
             </p>
             <p data-sal="slide-up" data-sal-delay="700" data-sal-easing="ease">
-              Want to get in touch?Contact me here!
+              Want to get in touch? Find me here!
             </p>
             <div
               className="social-media"

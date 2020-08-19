@@ -25,21 +25,21 @@ export default function about() {
             <p>
               I am Anurag Gharat. Currently pursuing my 4th year of Bachelor's
               Degree in Computer Science from RAIT Nerul.I completed my Junior
-              College and School from Alibag.
+              College and Schooling from Alibag, Maharashtra.
             </p>
-            <p>
+            <p className="mt-2">
               I picked up on making websites as a hobby in my 2nd year of
               Engineering and look forward to continue it as a Professional
               Career. I specialize in creating and developing Front-Ends and
-              designing the UI's.I am fluent in Front-End Frameworks like React
-              and Angular. I do work on backend as well when needed. Apart from
-              Web Technologies I have been studying and learning Native App
-              Development using React Native
+              designing the UI's. I am fluent in Front-End Frameworks like React
+              and Angular but I do work on backend as well when needed. Apart
+              from Web technologies I have been studying and learning Native App
+              Development using React Native.
             </p>
-            <p>
+            <p className="mt-2">
               I am fascinated about Designing and Developing products with
               modern and great User Experience. I fond of coding and the entire
-              process involving in creating a project.
+              process involving in planning and creating a project.
             </p>
           </div>
           <div
@@ -51,7 +51,8 @@ export default function about() {
             <h2 className="sub-heading">Technical Skills</h2>
             <p>
               With a 2 years of Experience in Web Development, here is a list of
-              Technologies and Programming Languages I am capable of working on!
+              Technologies, Programming Languages and Tools I am capable of
+              working on!
             </p>
             <ul className="text-wrap">
               <li className="chip">Python</li>
@@ -96,7 +97,7 @@ export default function about() {
                 websites for the client projects of the Organization while
                 leading a team of 6 Developers. The technology stack on which I
                 worked included React, Redux ,CSS Frameworks, Node, Express and
-                MongoDB. Completed projects :-
+                MongoDB.Some of the completed projects :-
                 <a
                   href="http://littleearthfarmsandnursery.com/"
                   target="_blank"
@@ -162,7 +163,7 @@ export default function about() {
                 </a>
                 {" , "}
                 <a
-                  href="http://littleearthfarmsandnursery.com/"
+                  href="http://theblueskyresort.com/"
                   target="_blank"
                   className="primary-text bold"
                   rel="noreferrer"
