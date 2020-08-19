@@ -8,7 +8,7 @@ const Header = () => (
     <nav>
       <div>
         <h2 className="logo">
-          <Link to="/">AG</Link>
+          <Link to="/">AnuragGharat</Link>
         </h2>
       </div>
       <div className="navigation">

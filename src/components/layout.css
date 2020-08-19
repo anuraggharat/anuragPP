@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&family=Dancing+Script:wght@400&display=swap");
 @import "~/node_modules/sal.js/dist/sal.css";
 
 :root {
@@ -121,7 +121,10 @@ nav {
   color: var(--primary-light) !important;
 }
 .logo > a {
-  color: #636e72;
+  color: var(--primary-light);
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  font-weight: 200;
 }
 nav > div {
   display: flex;

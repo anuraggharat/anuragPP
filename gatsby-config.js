@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Anurag Gharat | Front-End Developer `,
-    description: `Hey There! I am Anurag. A Front-End Developer based in Mumbai.`,
+    description: `Hey There! I am Anurag. A Front-End Developer based in Mumbai.I create products for the Web with great User Experience.
+Currently looking for Projects and Internships to work on!`,
     author: `@anuraggharat`,
   },
   plugins: [
@@ -25,7 +26,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/anurag.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
