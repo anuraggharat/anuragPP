@@ -11,14 +11,13 @@
   --black: #222;
   --white: #eaf0f1;
 }
-
 body {
   position: relative;
   font-family: "Montserrat", sans-serif;
   width: 100%;
   min-height: 100vh;
   box-sizing: border-box;
-  padding: 0px;
+  padding: 0px !important;
   margin: 0px;
   background-color: var(--background-light);
 }
@@ -97,7 +96,7 @@ header {
   height: 10vh;
   width: 100%;
   display: flex;
-  background-color: var(--primary-light);
+  background-color: var(--background-light);
 }
 nav {
   display: flex;
@@ -106,6 +105,9 @@ nav {
   position: fixed;
   background-color: var(--background-light);
   z-index: 5;
+}
+.nav-active {
+  color: var(--primary-light) !important;
 }
 .logo > a {
   color: #636e72;
@@ -117,7 +119,7 @@ nav > div {
 .nav-link {
   margin: 0px 10px;
   color: var(--text-light);
-  font-weight: 500;
+  font-weight: 600;
   font-size: 18px;
 }
 
@@ -240,6 +242,8 @@ nav > div {
     justify-content: space-around;
     align-items: center;
     padding: 0px;
+    background-color: #ecf0f1;
+    margin: 0px;
   }
   .logo {
     display: none;
@@ -256,8 +260,21 @@ nav > div {
     align-items: center;
     align-self: center;
     position: absolute;
+    border: 0px;
+  }
+  .nav-link {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .nav-link-active {
     background-color: var(--background-light);
-    border: none;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
   }
   .navigation-icon {
     font-size: 1.5rem;
@@ -269,6 +286,10 @@ nav > div {
   }
   .root {
     padding-top: 5vh;
+    padding-bottom: 10vh;
+  }
+  ul {
+    padding: 0px 0px 0px 10px;
   }
 }
 
