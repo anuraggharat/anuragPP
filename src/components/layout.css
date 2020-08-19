@@ -218,3 +218,47 @@ nav > div {
   margin-top: 10px;
   margin-right: 10px;
 }
+.navigation-icons {
+  display: none;
+}
+
+/* media query */
+@media only screen and (max-width: 600px) {
+  header {
+    bottom: 0px;
+    z-index: 5;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: khaki;
+    padding: 0px;
+  }
+  .logo {
+    display: none;
+  }
+  .navigation {
+    display: none;
+  }
+  .navigation-icons {
+    display: flex;
+    justify-content: space-around;
+    background-color: lavender;
+    width: 100%;
+    height: 10vh;
+    flex: 1;
+    align-items: center;
+    align-self: center;
+    position: absolute;
+  }
+  .navigation-icon {
+    font-size: 1.5rem;
+  }
+  .container {
+    width: 90vw;
+    margin: 0px auto;
+  }
+  .root {
+    padding-top: 5vh;
+  }
+}
