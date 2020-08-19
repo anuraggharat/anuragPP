@@ -2,8 +2,8 @@
 @import "~/node_modules/sal.js/dist/sal.css";
 
 :root {
-  /* --primary-light: #6c5ce7;#e74c3c */
-  --primary-light: #1b9cfc;
+  /* --primary-light: #6c5ce7;#e74c3c,#0984e3 */
+  --primary-light: #00b894;
   --secondary-light: #55efc4;
   --background-light: #fafafa;
   --text-light: #636e72;
