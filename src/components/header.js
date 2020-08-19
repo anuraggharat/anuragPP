@@ -1,17 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
-import {
-  Fa,
-  FaHome,
-  FaTextWidth,
-  FaBlog,
-  FaBlogger,
-  FaPenFancy,
-  FaPhoneAlt,
-  FaUserGraduate,
-} from "react-icons/fa"
-import { IoIosLaptop } from "react-icons/io"
-import { MdBusinessCenter, MdLaptopMac } from "react-icons/md"
+import { FaHome, FaPenFancy, FaPhoneAlt, FaUserGraduate } from "react-icons/fa"
+import { MdLaptopMac } from "react-icons/md"
 
 const Header = () => (
   <header>

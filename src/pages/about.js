@@ -8,8 +8,20 @@ export default function about() {
       <SEO title="About Me" />
       <div className="container">
         <div className="about">
-          <h1 className="heading">About Me</h1>
-          <div className="about-section">
+          <h1
+            className="heading"
+            data-sal="slide-down"
+            data-sal-delay="300"
+            data-sal-easing="ease"
+          >
+            About Me
+          </h1>
+          <div
+            className="about-section"
+            data-sal="slide-down"
+            data-sal-delay="500"
+            data-sal-easing="ease"
+          >
             <p>
               I am Anurag Gharat. Currently pursuing my 4th year of Bachelor's
               Degree in Computer Science from RAIT Nerul.I completed my Junior
@@ -30,7 +42,12 @@ export default function about() {
               process involving in creating a project.
             </p>
           </div>
-          <div className="about-section">
+          <div
+            className="about-section"
+            data-sal="slide-down"
+            data-sal-delay="500"
+            data-sal-easing="ease"
+          >
             <h2 className="sub-heading">Technical Skills</h2>
             <p>
               With a 2 years of Experience in Web Development, here is a list of
@@ -58,7 +75,12 @@ export default function about() {
               <li className="chip">Wordpress</li>
             </ul>
           </div>
-          <div className="about-section">
+          <div
+            className="about-section"
+            data-sal="slide-down"
+            data-sal-delay="500"
+            data-sal-easing="ease"
+          >
             <h2 className="sub-heading">Past Work Experience</h2>
             <ul>
               <li>

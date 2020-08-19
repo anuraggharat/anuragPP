@@ -42,7 +42,12 @@ export default function Blogs() {
           </p>
           <p>Here's a list of all the blogs I have wrote so far!</p>
           {loading ? (
-            <h1>Loading</h1>
+            <div class="lds-ellipsis">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
           ) : (
             <div>
               {blogs.map(blog => (
