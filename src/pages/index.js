@@ -38,7 +38,7 @@ const IndexPage = () => {
               data-sal-easing="ease-in"
             >
               <a
-                href="anuraggharat.me"
+                href="https://github.com/anuraggharat"
                 className="social-icons"
                 rel="noreferrer"
                 target="_blank"
@@ -46,7 +46,7 @@ const IndexPage = () => {
                 <FaGithub />
               </a>
               <a
-                href="anuraggharat.me"
+                href="https://www.linkedin.com/in/anurag-gharat-25541b18b/"
                 className="social-icons"
                 rel="noreferrer"
                 target="_blank"

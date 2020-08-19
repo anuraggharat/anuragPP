@@ -21,6 +21,17 @@ body {
   margin: 0px;
   background-color: var(--background-light);
 }
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--background-light);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--primary-light);
+}
 .root {
   width: 100%;
   height: 100%;

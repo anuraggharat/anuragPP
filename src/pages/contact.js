@@ -37,7 +37,7 @@ export default function contact() {
           </div>
           <div className="social-media-contact">
             <a
-              href="anuraggharat.me"
+              href="https://www.facebook.com/gharat.anurag/"
               className="social-icons-contact"
               target="_blank"
               rel="noreferrer"
@@ -59,7 +59,7 @@ export default function contact() {
               <FaInstagram />
             </a>
             <a
-              href="anuraggharat.me"
+              href="https://api.whatsapp.com/send?phone=+917745050822"
               className="social-icons-contact"
               target="_blank"
               rel="noreferrer"
