@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Blogcard from "../components/blogcard"
-
 import { getBlogs } from "../APIcalls/Medium"
 
 export default function Blogs() {
@@ -32,7 +31,11 @@ export default function Blogs() {
           <p>
             I was always fond of teaching and explaining concepts in a better
             understandable way.Recently I started writing blogs at{" "}
-            <a href="https://medium.com/@anuraggharat" target="_blank">
+            <a
+              href="https://medium.com/@anuraggharat"
+              target="_blank"
+              rel="noreferrer"
+            >
               Medium
             </a>{" "}
             and I am still a newbie at it.

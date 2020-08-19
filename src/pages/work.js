@@ -13,7 +13,11 @@ const IndexPage = () => (
         <p>
           Here is a list of few selected projects I have worked on till date.
           You can find more of them on {"  "}
-          <a target="_blank" href="https://github/anuraggharat">
+          <a
+            target="_blank"
+            href="https://github/anuraggharat"
+            rel="noreferrer"
+          >
             Github
           </a>
           .

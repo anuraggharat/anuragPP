@@ -79,6 +79,7 @@ export default function about() {
                   href="http://littleearthfarmsandnursery.com/"
                   target="_blank"
                   className="primary-text bold"
+                  rel="noreferrer"
                 >
                   edunomics.in
                 </a>
@@ -87,6 +88,7 @@ export default function about() {
                   href="https://techedunomics.netlify.app/"
                   target="_blank"
                   className="bold primary-text"
+                  rel="noreferrer"
                 >
                   tech.edunomics.in
                 </a>
@@ -95,6 +97,7 @@ export default function about() {
                   href="https://nikhilcomforts.netlify.app/"
                   target="_blank"
                   className="primary-text bold"
+                  rel="noreferrer"
                 >
                   nikhilcomforts.com
                 </a>
@@ -103,6 +106,7 @@ export default function about() {
                   href="https://yashodaclinic.com/"
                   target="_blank"
                   className="primary-text bold"
+                  rel="noreferrer"
                 >
                   nikhilcomforts.com
                 </a>
@@ -130,6 +134,7 @@ export default function about() {
                   href="http://littleearthfarmsandnursery.com/"
                   target="_blank"
                   className="primary-text bold"
+                  rel="noreferrer"
                 >
                   littleearthfarmsandnursery.com
                 </a>
@@ -138,6 +143,7 @@ export default function about() {
                   href="http://littleearthfarmsandnursery.com/"
                   target="_blank"
                   className="primary-text bold"
+                  rel="noreferrer"
                 >
                   theblueskyresortalibag.com
                 </a>
@@ -146,6 +152,7 @@ export default function about() {
                   href="https://yashodaclinic.com/"
                   target="_blank"
                   className="primary-text bold"
+                  rel="noreferrer"
                 >
                   yashodaclinic.com
                 </a>

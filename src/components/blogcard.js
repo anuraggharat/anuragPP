@@ -1,11 +1,11 @@
 import React from "react"
-import Blogimage from "../images/rove.png"
+
 export default function Blogcard({ blog }) {
   let d = new Date(blog.pubDate)
 
   return (
     <div className="blog-card">
-      <a href={blog.link} target="_blank">
+      <a href={blog.link} target="_blank" rel="noreferrer">
         <img src={blog.thumbnail} className="blog-image" alt="Blog" />
       </a>
       <h2 className="sub-heading">{blog.title}</h2>

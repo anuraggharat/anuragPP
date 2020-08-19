@@ -12,20 +12,39 @@ export default function contact() {
           <h1 className="heading">Contact Me</h1>
           <p>
             For work or project related enquiries mail me at:{" "}
-            <a href="mailto:anuraggharat55@gmail.com" target="_blank">
+            <a
+              href="mailto:anuraggharat55@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               anuraggharat55@gmail.com
             </a>
           </p>
           <p>Or</p>
           <p>Ping me on my social media handles to start a conversation.</p>
           <div className="social-media-contact">
-            <a href="anuraggharat.me" className="social-icons-contact">
+            <a
+              href="anuraggharat.me"
+              className="social-icons-contact"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaFacebook />
             </a>
-            <a href="anuraggharat.me" className="social-icons-contact">
+            <a
+              href="anuraggharat.me"
+              className="social-icons-contact"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaInstagram />
             </a>
-            <a href="anuraggharat.me" className="social-icons-contact">
+            <a
+              href="anuraggharat.me"
+              className="social-icons-contact"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaWhatsapp />
             </a>
           </div>

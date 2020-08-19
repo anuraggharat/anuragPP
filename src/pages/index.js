@@ -18,10 +18,20 @@ const IndexPage = () => (
           <p>Currently looking for Projects and Internships to work on!</p>
           <p>Want to get in touch?Contact me here!</p>
           <div className="social-media">
-            <a href="anuraggharat.me" className="social-icons">
+            <a
+              href="anuraggharat.me"
+              className="social-icons"
+              rel="noreferrer"
+              target="_blank"
+            >
               <FaGithub />
             </a>
-            <a href="anuraggharat.me" className="social-icons">
+            <a
+              href="anuraggharat.me"
+              className="social-icons"
+              rel="noreferrer"
+              target="_blank"
+            >
               <FaLinkedin />
             </a>
           </div>
