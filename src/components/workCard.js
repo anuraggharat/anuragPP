@@ -12,7 +12,9 @@ export default function WorkCard({ work }) {
         <img src={work.imgId} className="work-image" alt="work" />
       </a>
       <div className="row">
-        <h2 className="sub-heading">{work.title}</h2>
+        <a href={work.link} target="_blank" rel="noreferrer">
+          <h2 className="sub-heading primary-text">{work.title}</h2>
+        </a>
         <p>{work.description}</p>
         <h4>Technologies</h4>
         <ul className=" m-0 text-wrap">

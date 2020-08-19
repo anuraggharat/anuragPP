@@ -9,8 +9,15 @@ const IndexPage = () => (
     <SEO title="Works" />
     <div className="container">
       <div className="works">
-        <h1 className="heading">My Works</h1>
-        <p>
+        <h1
+          className="heading"
+          data-sal="slide-down"
+          data-sal-delay="300"
+          data-sal-easing="ease"
+        >
+          My Works
+        </h1>
+        <p data-sal="slide-down" data-sal-delay="400" data-sal-easing="ease">
           Here is a list of few selected projects I have worked on till date.
           You can find more of them on {"  "}
           <a

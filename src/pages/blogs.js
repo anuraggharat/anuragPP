@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Blogcard from "../components/blogcard"
 import { getBlogs } from "../APIcalls/Medium"
+import Loader from "../components/Loader"
 
 export default function Blogs() {
   const [blogs, setblogs] = useState()
@@ -27,27 +28,36 @@ export default function Blogs() {
       <SEO title="About Me" />
       <div className="container">
         <div className="blogs">
-          <h1 className="heading">Blog</h1>
-          <p>
-            I was always fond of teaching and explaining concepts in a better
-            understandable way.Recently I started writing blogs at{" "}
-            <a
-              href="https://medium.com/@anuraggharat"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Medium
-            </a>{" "}
-            and I am still a newbie at it.
-          </p>
-          <p>Here's a list of all the blogs I have wrote so far!</p>
+          <h1
+            className="heading"
+            data-sal="slide-down"
+            data-sal-delay="300"
+            data-sal-easing="ease"
+          >
+            Blog
+          </h1>
+          <div
+            data-sal="slide-down"
+            data-sal-delay="400"
+            data-sal-easing="ease"
+          >
+            <p>
+              I was always fond of teaching and explaining concepts in a better
+              understandable way. Recently I started writing blogs at{" "}
+              <a
+                href="https://medium.com/@anuraggharat"
+                target="_blank"
+                rel="noreferrer"
+                className="bold primary-text"
+              >
+                Medium
+              </a>{" "}
+              and I am still a newbie at it.
+            </p>
+            <p>Here's a list of all the blogs I have wrote so far!</p>
+          </div>
           {loading ? (
-            <div class="lds-ellipsis">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
+            <Loader />
           ) : (
             <div>
               {blogs.map(blog => (
