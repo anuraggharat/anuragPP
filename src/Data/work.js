@@ -3,6 +3,7 @@ import shoee from "../images/rove.png"
 import medinspire from "../images/medinspire.png"
 import bechde from "../images/bechde.png"
 import getfit from "../images/getfit.png"
+import newsbits from "../images/newsbits.jpg"
 
 export const works = [
   {
@@ -49,6 +50,15 @@ export const works = [
   },
   {
     id: 5,
+    title: "NewsBits",
+    description:
+      "A React Native app that shows News Headlines from a Free Rest API newsapi.org.The App has a screen showing the headlines and allows pull to refresh and show new news functionality also a search screen that searches the news as per the users requirement.",
+    imgId: newsbits,
+    technologies: ["React-Native", "Rest API"],
+    link: "https://github.com/anuraggharat/NewsApp",
+  },
+  {
+    id: 6,
     title: "Get fit",
     description:
       "A Bootstrap Theme built on October CMS for a GYM. The theme comes with Blogs as well as Forums functionality added.",
