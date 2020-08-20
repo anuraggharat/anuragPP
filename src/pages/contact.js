@@ -49,7 +49,7 @@ export default function contact() {
               <FaFacebook />
             </a>
             <a
-              href="anuraggharat.me"
+              href="https://www.instagram.com/anurag.gharat/"
               className="social-icons-contact"
               target="_blank"
               rel="noreferrer"

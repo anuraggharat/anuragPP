@@ -33,8 +33,8 @@ export default function about() {
             </p>
             <p className="mt-2">
               I am fascinated about Designing and Developing products with
-              modern and great User Experience. I fond of coding and the entire
-              process involving in planning and creating a project.
+              modern and great User Experience. I am fond of coding and the
+              entire process involving in planning and creating a project.
             </p>
           </div>
           <div

@@ -45,7 +45,7 @@ export default function Blogs() {
               Being a Self taught Developer I was always fond of learning new
               technologies and sharing them. I write on Technical concepts and
               try explaining them in a better understandable way.You can find
-              them at{" "}
+              them on{" "}
               <a
                 href="https://medium.com/@anuraggharat"
                 target="_blank"

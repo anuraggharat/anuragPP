@@ -34,10 +34,10 @@ export const works = [
     id: 3,
     title: "MedInspire",
     description:
-      "A Platform for Patients suffering from similiar diseases and illness to connect with each other. The app provides the patients to share and talk about there illness and sufferenings while keeping their identity disclosed. The platform also lets them take expert opinions from doctors and specialists with one to one chat.The application was developed at ERR404 Hackathon and is built on VUE.js and Firebase.",
+      "A Platform for Patients suffering from similiar diseases and illness to connect with each other. The app provides the patients to share and talk about there illness and sufferings while keeping their identity disclosed. The platform also lets them take expert opinions from doctors and specialists with one to one chat.The application was developed at ERR404 Hackathon and is built on VUE.js and Firebase.",
     imgId: medinspire,
     technologies: ["Vue.Js", "Firebase", "Vuetify"],
-    link: "https://github.com/anuraggharat/ECom",
+    link: "https://medinspire.firebaseapp.com/",
   },
   {
     id: 4,
@@ -55,13 +55,13 @@ export const works = [
       "A React Native app that shows News Headlines from a Free Rest API newsapi.org. The App has a screen showing the headlines, also a search screen that allows the users to search the news as per their requirement.",
     imgId: newsbits,
     technologies: ["React-Native", "Rest API"],
-    link: "https://github.com/anuraggharat/NewsApp",
+    link: "https://github.com/anuraggharat/News-App",
   },
   {
     id: 6,
     title: "Get fit",
     description:
-      "A Bootstrap Theme built on October CMS for a GYM. The theme comes with Blogs as well as Forums functionality added.",
+      "A Bootstrap Theme built on October CMS for a GYM. The theme also contains blogs and forums functionality.",
     imgId: getfit,
     technologies: ["HTML5", "CSS3", "Bootstrap", "Laravel", "Php"],
     link: "https://github.com/anuraggharat/OctoberCMS-Blog",
