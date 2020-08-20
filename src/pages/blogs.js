@@ -24,7 +24,7 @@ export default function Blogs() {
 
   return (
     <Layout>
-      <SEO title="About Me" />
+      <SEO title="Blogs" />
       <div className="container">
         <div className="blogs">
           <h1

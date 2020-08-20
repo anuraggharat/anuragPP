@@ -6,7 +6,7 @@ import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa"
 export default function contact() {
   return (
     <Layout>
-      <SEO title="About Me" />
+      <SEO title="Contact Me" />
       <div className="container">
         <div className="contact">
           <h1
