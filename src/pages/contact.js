@@ -28,6 +28,7 @@ export default function contact() {
                 href="mailto:anuraggharat55@gmail.com"
                 target="_blank"
                 rel="noreferrer"
+                className="primary-text bold"
               >
                 anuraggharat55@gmail.com
               </a>

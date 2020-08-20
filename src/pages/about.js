@@ -16,12 +16,7 @@ export default function about() {
           >
             About Me
           </h1>
-          <div
-            className="about-section"
-            data-sal="slide-down"
-            data-sal-delay="500"
-            data-sal-easing="ease"
-          >
+          <div className="about-section">
             <p>
               I am Anurag Gharat. Currently pursuing my 4th year of Bachelor's
               Degree in Computer Science from RAIT Nerul.I completed my Junior
@@ -76,12 +71,7 @@ export default function about() {
               <li className="chip">Wordpress</li>
             </ul>
           </div>
-          <div
-            className="about-section"
-            data-sal="slide-down"
-            data-sal-delay="500"
-            data-sal-easing="ease"
-          >
+          <div className="about-section">
             <h2 className="sub-heading">Past Work Experience</h2>
             <ul>
               <li>
@@ -97,9 +87,9 @@ export default function about() {
                 websites for the client projects of the Organization while
                 leading a team of 6 Developers. The technology stack on which I
                 worked included React, Redux ,CSS Frameworks, Node, Express and
-                MongoDB.Some of the completed projects :-
+                MongoDB. Some of the completed projects :-
                 <a
-                  href="http://littleearthfarmsandnursery.com/"
+                  href="http://edunomics.in/"
                   target="_blank"
                   className="primary-text bold"
                   rel="noreferrer"
@@ -124,15 +114,6 @@ export default function about() {
                 >
                   nikhilcomforts.com
                 </a>
-                {" and "}
-                <a
-                  href="https://yashodaclinic.com/"
-                  target="_blank"
-                  className="primary-text bold"
-                  rel="noreferrer"
-                >
-                  nikhilcomforts.com
-                </a>
                 .
               </p>
               <li>
@@ -146,13 +127,13 @@ export default function about() {
               </p>
               <p>
                 I began working as a Freelance Developer from April 2020, since
-                then I have worked with all types of clients and businessmen and
-                helped them in creating there websites.The main motive of all
-                the projects was to provide the Simplest, Feasible and Cost
-                Friendly Solutions for their projects. The technologies used
-                during this period was HTML , CSS, JS, Jquery, Gatsby,
-                Bootstrap, Wordpress ,Bootstrap and various other
-                Technologies.Some note worthy projects are{" "}
+                then I have worked with all types of clients and businessmen,
+                and helped them in creating there websites.The main motive of
+                all the projects was to provide the Simple, Feasible and Cost
+                Friendly Solutions for their projects. Most of the projects were
+                built on HTML , CSS, JS, Jquery, Gatsby, Bootstrap, Wordpress
+                and various others when needed. Some note worthy projects during
+                these period are{" "}
                 <a
                   href="http://littleearthfarmsandnursery.com/"
                   target="_blank"
@@ -163,7 +144,7 @@ export default function about() {
                 </a>
                 {" , "}
                 <a
-                  href="http://theblueskyresort.com/"
+                  href="https://theblueskyresortalibag.com/"
                   target="_blank"
                   className="primary-text bold"
                   rel="noreferrer"

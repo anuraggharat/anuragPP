@@ -12,7 +12,6 @@ export default function Blogs() {
   useEffect(() => {
     getBlogs()
       .then(res => {
-        console.log(res)
         if (res.status) {
           setblogs(res.items)
         } else {
@@ -41,9 +40,12 @@ export default function Blogs() {
             data-sal-delay="400"
             data-sal-easing="ease"
           >
+            {" "}
             <p>
-              I was always fond of teaching and explaining concepts in a better
-              understandable way. Recently I started writing blogs at{" "}
+              Being a Self taught Developer I was always fond of learning new
+              technologies and sharing them. I write on Technical concepts and
+              try explaining them in a better understandable way.You can find
+              them at{" "}
               <a
                 href="https://medium.com/@anuraggharat"
                 target="_blank"
@@ -52,7 +54,6 @@ export default function Blogs() {
               >
                 Medium
               </a>{" "}
-              and I am still a newbie at it.
             </p>
             <p>Here's a list of all the blogs I have wrote so far!</p>
           </div>

@@ -12,6 +12,9 @@
   --black: #222;
   --white: #eaf0f1;
 }
+html {
+  overflow-x: hidden;
+}
 body {
   position: relative;
   font-family: "Montserrat", sans-serif;
@@ -52,7 +55,7 @@ body::-webkit-scrollbar-thumb {
   color: var(--heading-light);
 }
 ul li {
-  color: #6c5ce7;
+  color: var(--primary-light);
 }
 .sub-heading {
   font-size: 2rem;
@@ -98,7 +101,7 @@ p {
 }
 .social-icons:hover,
 .social-icons-contact:hover {
-  color: var(--text-light);
+  color: var(--black);
   transform: translate(-3px, -3px);
   transition: 0.5s ease;
 }
@@ -270,6 +273,7 @@ nav > div {
     display: flex;
     justify-content: space-around;
     width: 100%;
+    position: fixed;
     height: 10vh;
     flex: 1;
     align-items: center;
@@ -292,6 +296,7 @@ nav > div {
     margin: 0px;
   }
   .navigation-icon {
+    position: fixed;
     font-size: 1.5rem;
     color: var(--primary-light);
   }
