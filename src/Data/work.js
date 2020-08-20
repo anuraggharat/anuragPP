@@ -34,7 +34,7 @@ export const works = [
     id: 3,
     title: "MedInspire",
     description:
-      "A fullfledged E-commerce store for shopping of shoes.The project is built on MERN Stack.Users can create their profile and start buying products.The Admin has all the access to add,delete and edit new items and categories.Also 2 payment gateways namely Stripe and Paypal are added.",
+      "A Platform for Patients suffering from similiar diseases and illness to connect with each other. The app provides the patients to share and talk about there illness and sufferenings while keeping their identity disclosed. The platform also lets them take expert opinions from doctors and specialists with one to one chat.The application was developed at ERR404 Hackathon and is built on VUE.js and Firebase.",
     imgId: medinspire,
     technologies: ["Vue.Js", "Firebase", "Vuetify"],
     link: "https://github.com/anuraggharat/ECom",
@@ -52,7 +52,7 @@ export const works = [
     id: 5,
     title: "NewsBits",
     description:
-      "A React Native app that shows News Headlines from a Free Rest API newsapi.org.The App has a screen showing the headlines and allows pull to refresh and show new news functionality also a search screen that searches the news as per the users requirement.",
+      "A React Native app that shows News Headlines from a Free Rest API newsapi.org. The App has a screen showing the headlines, also a search screen that allows the users to search the news as per their requirement.",
     imgId: newsbits,
     technologies: ["React-Native", "Rest API"],
     link: "https://github.com/anuraggharat/NewsApp",
