@@ -3,7 +3,9 @@ import shoee from "../images/rove.png"
 import medinspire from "../images/medinspire.png"
 import bechde from "../images/bechde.png"
 import getfit from "../images/getfit.png"
+import alluis from "../images/alluis.png"
 import newsbits from "../images/newsbits.jpg"
+import pokedex from "../images/pokedex.png"
 
 export const works = [
   {
@@ -59,6 +61,24 @@ export const works = [
   },
   {
     id: 6,
+    title: "UI Collection",
+    description:
+      "A collection of website and web components created over the time. Also included landing pages with cool JavaScript Animations.",
+    imgId: alluis,
+    technologies: ["HTML5", "CSS3", "JavaScript", "JQuery"],
+    link: "https://anuraggharat.github.io/alluis/",
+  },
+  {
+    id: 7,
+    title: "PokeDex",
+    description:
+      "A Server Side Rendered React website built on Next.js . Consumes free Pokemon API's and styled using Tailwind CSS.",
+    imgId: pokedex,
+    technologies: ["React", "Next.JS", "REST API", "Tailwind CSS"],
+    link: "https://pokedex-3e2k6k5n7.vercel.app/",
+  },
+  {
+    id: 8,
     title: "Get fit",
     description:
       "A Bootstrap Theme built on October CMS for a GYM. The theme also contains blogs and forums functionality.",
