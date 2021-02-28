@@ -2,14 +2,14 @@
 @import "~/node_modules/sal.js/dist/sal.css";
 
 :root {
-  --primary-light: #ff6b6b;
+  --primary-light: #706fd3;
 
-  --background-light: #fafafa;
-  --text-light: #636e72;
-  --text-medium: #576574;
-  --heading-light: #2d3436;
-  --black: #222;
-  --white: #eaf0f1;
+  --background-light: #1d1d1d;
+  --text-light: #e7e7e7;
+  --text-medium: #ffffff;
+  --heading-light: #ffffff;
+  --black: #050505;
+  --white: #1d1d1d;
 }
 html {
   overflow-x: hidden;
@@ -22,6 +22,7 @@ body {
   box-sizing: border-box;
   padding: 0px !important;
   margin: 0px;
+  color: #fff;
   background-color: var(--background-light);
 }
 body::-webkit-scrollbar {
@@ -259,7 +260,7 @@ nav > div {
     justify-content: space-around;
     align-items: center;
     padding: 0px;
-    background-color: #ecf0f1;
+    background-color: var(--black);
     margin: 0px;
   }
   .logo {
