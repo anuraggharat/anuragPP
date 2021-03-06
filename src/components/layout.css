@@ -101,7 +101,7 @@ p {
 }
 .social-icons:hover,
 .social-icons-contact:hover {
-  color: var(--black);
+  color: #fff;
   transform: translate(-3px, -3px);
   transition: 0.5s ease;
 }
