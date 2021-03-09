@@ -19,7 +19,7 @@ export default function about() {
           <div className="about-section">
             <p>
               I am Anurag Gharat. Currently pursuing my 4th year of Bachelor's
-              Degree in Computer Science from RAIT Nerul.I completed my Junior
+              Degree in Computer Science from RAIT Nerul. I completed my Junior
               College and Schooling from Alibag, Maharashtra.
             </p>
             <p className="mt-2">
