@@ -112,7 +112,7 @@ export default function about() {
                   className="primary-text bold"
                   rel="noreferrer"
                 >
-                  nikhilcomforts.com
+                  nikhilcomfort.com
                 </a>
                 .
               </p>
